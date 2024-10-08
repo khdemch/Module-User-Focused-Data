@@ -56,13 +56,13 @@ article:first-child img {
   border-bottom: 1px solid #616569;
 }
 
-article:nth-child(2n) img, article:nth-child(3n) img {
+article:nth-child(n + 2) img {
   max-height: 400px;
   max-width: 498px;
   border-bottom: 1px solid #616569;
 }
 
-article:nth-child(2n), article:nth-child(3n) {
+article:nth-child(n + 2) {
     border: 1px solid #616569; 
 }
 
@@ -75,16 +75,20 @@ article:nth-child(2n), article:nth-child(3n) {
 }
 
 .link_button a {
-    text-decoration: none; color: #616569;
+    text-decoration: none; 
+    color: #616569;
 }
 .link_button a:visited {
-    text-decoration: none; color: #616569;
+    text-decoration: none; 
+    color: #616569;
 }
 .link_button a:hover {
-    text-decoration: none; color: #616569;
+    text-decoration: none; 
+    color: #616569;
 }
 .link_button a:active {
-    text-decoration: none; color: #616569;
+    text-decoration: none; 
+    color: #616569;
 }
 
 .footer {
