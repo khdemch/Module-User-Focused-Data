@@ -46,11 +46,13 @@ article:first-child {
     grid-column: 1 / span 2; 
     margin-bottom: 20px;
     border: 1px solid #616569; 
+    max-width: 1020px;
 }
 
 article:first-child img {
-  max-height: 600px;
-  max-width: 1018px; 
+  max-height: 600px; 
+  max-width: 1020px;
+  object-fit: cover;
   border-bottom: 1px solid #616569;
 }
 
