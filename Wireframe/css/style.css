@@ -29,9 +29,9 @@ body {
    align-items: flex-start;
 }
 
-article :not(img) {
-    padding-left: 10px; 
-    padding-right: 10px;
+article :is(header, button) {
+    padding-left: 20px; 
+    padding-right: 20px;
 } 
 
 h1 {
