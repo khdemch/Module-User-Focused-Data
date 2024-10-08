@@ -72,6 +72,19 @@ article:nth-child(2n), article:nth-child(3n) {
     margin-bottom: 10px;
 }
 
+.link_button a {
+    text-decoration: none; color: #616569;
+}
+.link_button a:visited {
+    text-decoration: none; color: #616569;
+}
+.link_button a:hover {
+    text-decoration: none; color: #616569;
+}
+.link_button a:active {
+    text-decoration: none; color: #616569;
+}
+
 .footer {
     text-align: center;
     border-top: 1px solid #616569;
