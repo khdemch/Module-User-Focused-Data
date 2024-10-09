@@ -6,7 +6,7 @@ body {
     margin: auto;
     padding: 0%;
     border-radius: 0%;
-    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +29,7 @@ body {
    align-items: flex-start;
 }
 
-article :is(header, button) {
+article :is(header) {
     padding-left: 20px; 
     padding-right: 20px;
 } 
@@ -65,21 +65,22 @@ article:nth-child(n + 2) {
     border-radius: 15px;
     padding: 10px 15px 10px 15px;
     margin-bottom: 10px;
+    display: inline-block;
 }
 
-.link_button a {
+.link_button  {
     text-decoration: none; 
     color: #616569;
 }
-.link_button a:visited {
+.link_button:visited {
     text-decoration: none; 
     color: #616569;
 }
-.link_button a:hover {
+.link_button:hover {
     text-decoration: none; 
     color: #616569;
 }
-.link_button a:active {
+.link_button:active {
     text-decoration: none; 
     color: #616569;
 }
@@ -87,4 +88,5 @@ article:nth-child(n + 2) {
 .footer {
     text-align: center;
     border-top: 1px solid #616569;
+    margin-top: auto;
    }
