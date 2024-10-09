@@ -46,19 +46,12 @@ article:first-child {
     grid-column: 1 / span 2; 
     margin-bottom: 20px;
     border: 1px solid #616569; 
-    max-width: 1020px;
+    max-width: 100%;
 }
 
-article:first-child img {
-  max-height: 600px; 
-  max-width: 1020px;
-  object-fit: cover;
-  border-bottom: 1px solid #616569;
-}
-
-article:nth-child(n + 2) img {
-  max-height: 400px;
-  max-width: 498px;
+article:nth-child(-n + 3) img {
+  max-width: 100%;
+  display: block;
   border-bottom: 1px solid #616569;
 }
 
